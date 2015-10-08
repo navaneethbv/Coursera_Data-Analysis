@@ -5,7 +5,7 @@
 
 #Read outcome data and coerce.
 data <- read.csv("outcome-of-care-measures.csv", colClasses="character")
-data[,11] <- as.numeric(data[,11])
+data[,11] <- as.numeric(data[,11]) 
 data[,17] <- as.numeric(data[,17])
 data[,23] <- as.numeric(data[,23])
 
