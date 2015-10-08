@@ -5,7 +5,7 @@
 
 rankhospital <- function(state, outcome, num="best") {
     #Invalid outcome input type
-    if (!outcome %in% c("heart attack", "heart failure", "pneumonia")) {
+    if (!outcome %in% c("heart attack", "heart failure", "pneumonia")) { 
         stop("invalid outcome")
     }
     
