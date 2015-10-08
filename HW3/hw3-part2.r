@@ -3,7 +3,7 @@
 #Assignment #3 - Part 2
 #https://class.coursera.org/compdata-002/assignment/view?assignment_id=4
 
-#Read outcome data and coerce.
+#Read outcome data and coerce. 
 data <- read.csv("outcome-of-care-measures.csv", colClasses="character")
 data[,11] <- as.numeric(data[,11]) 
 data[,17] <- as.numeric(data[,17])
