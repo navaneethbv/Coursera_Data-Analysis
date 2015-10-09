@@ -7,7 +7,7 @@ count <- function(cause=NULL) {
     #Validate our 'cause of death' input.
     cods <- c("asphyxiation", "blunt force", "other", "shooting", "stabbing", "unknown")
     if (!cause %in% cods) {
-        stop("invalid cause of death")
+        stop("invalid cause of death") 
     }
     
     #Read in our homicide data
