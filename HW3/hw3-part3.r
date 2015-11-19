@@ -1,4 +1,3 @@
-#Andrew Hawker
 #Computing for Data Analysis (Winter 2013)
 #Assignment #3 - Part 3
 #https://class.coursera.org/compdata-002/assignment/view?assignment_id=4
